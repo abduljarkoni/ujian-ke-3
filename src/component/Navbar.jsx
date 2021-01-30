@@ -6,6 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <h2 className="logo">Abdul Jarkoni</h2>
       <div className="menu">
+        <NavLink to="/home"> HOME </NavLink>
         <NavLink to="/radio"> RADIO </NavLink>
         <NavLink to="/cekbox"> CHECKBOX </NavLink>
         <NavLink to="/essay"> ESSAY </NavLink>

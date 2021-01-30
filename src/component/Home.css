@@ -1,0 +1,14 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://picsum.photos/seed/25/900);
+  background-size: cover;
+}
+
+.title_home {
+  font-size: 3rem;
+  color: white;
+}
