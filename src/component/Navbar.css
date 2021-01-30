@@ -1,0 +1,29 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 10%;
+  gap: 10px;
+  background-color: orange;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-right: auto;
+}
+
+.menu a {
+  font-size: 25px;
+  color: black;
+  margin-left: auto;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.menu a:hover {
+  background-color: white;
+  transition: 1s;
+  border-radius: 5px;
+}

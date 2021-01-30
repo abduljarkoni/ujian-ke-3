@@ -1,0 +1,44 @@
+.jawaban_essay {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardEssay {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+ul li {
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardEssay button {
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+
+.cardEssay button:hover {
+  background-color: orange;
+  border-radius: 10px;
+}

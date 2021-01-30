@@ -1,0 +1,42 @@
+.jawaban_radio {
+  width: 50vw;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.cardRadio {
+  width: 60%;
+  height: 120%;
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+ul li {
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardRadio button {
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+
+.cardRadio button:hover {
+  background-color: orange;
+  border-radius: 10px;
+}

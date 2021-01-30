@@ -1,0 +1,42 @@
+.jawaban_cekbox {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardCheckbox {
+  width: 60%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+
+ul li {
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cardCheckbox button {
+  width: 150px;
+  height: 50px;
+  background-color: brown;
+  color: white;
+  border-radius: 10px;
+}
+
+.cardCheckbox button:hover {
+  background-color: orange;
+  border-radius: 10px;
+}
