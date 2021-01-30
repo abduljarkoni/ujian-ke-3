@@ -34,11 +34,7 @@ export default class Radio_jawaban extends Component {
                     <li className="list-group-item bg-primary">
                       {postRadio.d}
                     </li>
-                    <label htmlFor="">jawab : D</label>
 
-                    <li className="list-group-item bg-primary">
-                      {postRadio.d}
-                    </li>
                     <label htmlFor="">kunci :</label>
 
                     <li className="list-group-item bg-primary">
